@@ -1,0 +1,47 @@
+h1, h2, h3, h4 {
+  font-family: 'EB Garamond', arial, serif;
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 44px;
+  line-height: 120px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11pt;
+  line-height: 12pt;
+  background: #60bede url('images/bg.gif') repeat-y top center;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+#bgtopwrap {
+  border: solid green 0px;
+  position: absolute;
+  width: 100%;
+  background-color: red;
+  padding: 0px;
+  margin: 0px;
+  background: url('images/bg-top.gif') no-repeat top center;
+  min-height:100%;
+  height:auto !important;  /* ie5+ hack */
+  height:100%;             /* ie5+ hack */
+  text-align: center;      /* ie5+ hack */
+}
+#contentwrap {
+  border: solid blue 0px;
+  margin: 0 auto;
+  width: 960px;
+  text-align: right;       /* ie5+ hack */
+}
+#wrap {
+  border: solid red 0px;
+  margin: 130 0 0 auto;
+  width: 640px;
+  text-align: left;        /* ie5+ hack */
+}
+#content {
+  margin:0 90px;
+}
