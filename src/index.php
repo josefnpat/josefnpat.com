@@ -17,6 +17,7 @@
           <li><a href="http://josefnpat.tumblr.com">Tumblr</a></li>
           <li><a href="http://missingsentinelsoftware.com">Missing Sentinel Software</a></li>
           <li>R&eacute;sum&eacute; [<a href="resume/src">HTML</a>|<a href="resume/resume.pdf">PDF</a>]</li>
+          <li><a href="josefnpat-pubkey.txt">PGP Public Key</a></li>
         </ul>
         <h2>Contact</h2>
         <p>Please contact me via email at <a href="mailto:seppi@josefnpat.com">seppi@josefnpat.com</a>.</p>
@@ -26,9 +27,19 @@
         <p>My lead guitarist turns his amp on and strikes a chord to prevent the engine from stalling. The engine purrs and he mutes it. I feel like David Byrne. I step up to the microphone. A triumphant bar chord puts the engine in gear. I sing and the engine warning lights fade away.</p>
         <p>Tight and fully backed, the intro pulls the band blazing down the freeway, with all the windows down. Those poor four ohm speakers built into the frame begin to clip. Driving with the evening sun striking my face, the endless highway is eaten by the surrounding trees.</p>
         <p>I am living the American dream.</p>
+        <h2>GPG Key</h2>
+<pre>
+pub   4096R/5070D310 2014-08-08
+uid                  Josef Patoprsty (josefnpat) <seppi@josefnpat.com>
+sub   4096R/E5BBB13F 2014-08-08
+</pre>
+<pre class="pubkey">
+<?php include("josefnpat-pubkey.txt"); ?>
+</pre>
       </div>
     </div>
   </div>
 </div>
 </body>
 </html>
+
